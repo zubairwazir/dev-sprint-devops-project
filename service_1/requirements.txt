@@ -1,0 +1,8 @@
+Flask 
+Flask-Testing 
+requests 
+requests-mock
+Flask-SQLAlchemy 
+pytest 
+pytest-cov
+requests_mock

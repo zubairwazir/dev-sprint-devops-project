@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+
+    service-1: 
+        container_name: 'service_1'
+        image: 134042/service_1
+        build: service_1
+        ports: 
+        - target: 5000
+          published: 5000
+        environment: 
+            DATABASE_URI: ${DATABASE_URI}
+
+    service-2:
+        container_name: 'service_2'
+        image: 134042/service_2 
+        build: service_2/
+
+    service-3:
+        container_name: 'service_3'
+        image: 134042/service_3
+        build: service_3/
+
+    service-4:
+        container_name: 'service_4'
+        image: 134042/service_4 
+        build: service_4/
