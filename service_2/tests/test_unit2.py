@@ -1,5 +1,6 @@
 from flask import url_for
 from flask_testing import TestCase
+import pytest, pytest_cov
 
 from service_2.app import app, alc_drink
 
@@ -10,7 +11,7 @@ class TestBase(TestCase):
 class TestResponse(TestBase):
 
     def test_get_alc_drink(self):
-
+        
         for _ in range(20):
             response = self.client.get(url_for('get_alc_drink'))
 

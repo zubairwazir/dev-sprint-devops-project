@@ -1,5 +1,6 @@
 from flask import url_for
 from flask_testing import TestCase
+import pytest, pytest_cov
 
 from service_4.app import app, prices
 
@@ -19,5 +20,5 @@ class TestResponse(TestBase):
 
                 self.assert200(response)
 
-                expected_price = ((prices['alc_drink'][alc_drink] + prices['soft_drink'][soft_drink]), 2)
+                expected_price = ((prices['alc_drink'][alc_drink] + prices['soft_drink'][soft_drink]))
                 self.assertEqual(response.json, expected_price)

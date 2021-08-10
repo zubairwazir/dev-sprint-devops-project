@@ -2,6 +2,7 @@ from flask import url_for
 from flask_testing import TestCase
 
 from service_3.app import app, soft_drink
+import pytest, pytest_cov
 
 class TestBase(TestCase):
     def create_app(self):

@@ -1,14 +1,15 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from . import routes 
+import os
+from os import getenv
+ 
 
 app = Flask(__name__)
 
-app.config.update(
-    SQLALCHEMY_DTATABASE_URI = 'sqlite:///data.db',
-    SQLALCHEMY_TRACK_MODIFICATIONS = True,
-    SECRET_KEY = 'password'
-
-)
-
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URI')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=True
+app.config['SECRET_KEY'] = 'pass'
+    
 db = SQLAlchemy(app)
+
+from application import routes

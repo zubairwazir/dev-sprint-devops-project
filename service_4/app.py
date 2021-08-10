@@ -29,7 +29,7 @@ def post_round():
     soft_drink = request.json['soft_drink']
 
     price = prices['alc_drink'][alc_drink] + prices['soft_drink'][soft_drink]
-    price = round(price, 2)
+   
 
     return jsonify(price) 
 
