@@ -2,6 +2,8 @@ from flask import Flask, render_template, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
 import requests
 from . import app, db
+from . import models
+
 
 
 
