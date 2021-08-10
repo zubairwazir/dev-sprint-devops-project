@@ -1,0 +1,13 @@
+all:
+  hosts:
+    swarm-manager:
+    load-balancer:
+  children:
+    workers:
+      hosts:
+        swarm-worker:
+  vars:
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+  
+
+    

@@ -1,0 +1,4 @@
+- hosts: nginx-load-balancer
+  become: true 
+  roles:
+    - Configure NGINX

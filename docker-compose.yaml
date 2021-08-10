@@ -2,18 +2,6 @@ version: '3.8'
 
 services:
 
-    nginx:
-        container_name: 'nginx'
-        image: nginx:alpine
-        ports:
-        - target: 80
-          published: 80 
-          protocol: tcp
-        volumes:
-          - type: bind
-            source: ./nginx/nginx.conf
-            target: /etc/nginx/nginx.conf
-    
     pub-db:
         container_name: 'pub-db'
         image: mysql:latest
