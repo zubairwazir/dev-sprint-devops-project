@@ -3,7 +3,7 @@
 
 - name: Install NGINGX
   apt:
-    name: NGINX
+    name: nginx
     update_cache: true 
 
 - name: Template nginx.conf
