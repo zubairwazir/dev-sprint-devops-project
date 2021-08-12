@@ -14,7 +14,7 @@ services:
             MYSQL_DATABASE: "data"    
 
    
-    service-1: 
+    service_1: 
         container_name: 'service_1'
         image: 134042/service_1
         build: ./service_1
@@ -25,17 +25,17 @@ services:
         environment: 
             DATABASE_URI: "mysql+pymysql://root:pass@pub-db:3306/data"
 
-    service-2:
+    service_2:
         container_name: 'service_2'
         image: 134042/service_2 
         build: ./service_2/
 
-    service-3:
+    service_3:
         container_name: 'service_3'
         image: 134042/service_3
         build: ./service_3/
 
-    service-4:
+    service_4:
         container_name: 'service_4'
         image: 134042/service_4 
         build: ./service_4/

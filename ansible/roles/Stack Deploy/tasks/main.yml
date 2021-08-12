@@ -1,0 +1,23 @@
+---
+# tasks file for Stack Deploy
+
+- name: copy
+  copy: 
+    src: "{{ playbook_dir }}/../docker-compose.yaml"
+    dest: ~/docker-compose.yaml
+
+- name: json
+  pip: 
+    name: jsondiff
+
+
+- name: deploy from stack
+  docker_stack:
+    state: present 
+    name: app-stack
+    compose: 
+      - ~/docker-compose.yaml
+
+
+
+ 

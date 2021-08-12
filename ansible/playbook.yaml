@@ -20,5 +20,12 @@
   roles:
     - Join Swarm 
 
+- hosts: docker-manager  
+  become: true 
+  roles:
+    - Stack Deploy
+
+
+    
   
 
