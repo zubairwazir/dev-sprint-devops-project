@@ -23,7 +23,7 @@ services:
           published: 5000
           protocol: tcp
         environment: 
-            DATABASE_URI: "mysql+pymysql://root:pass@pub-db:3306/data"
+            DATABASE_URI: 
 
     service_2:
         container_name: 'service_2'
