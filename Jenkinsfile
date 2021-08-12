@@ -1,8 +1,6 @@
 pipeline{
     agent any
     environment{
-        DATABASE_URI= os.getenv('DATABASE_URI')
-        DOCKERHUB_CREDENTIALS= ..
     }
     stages{
         stage('Unit Testing'){
