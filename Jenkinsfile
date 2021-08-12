@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment{
-        DATABASE_URI = credentials(getenv('DATABASE_URI'))
+        DATABASE_URI = credentials('DATABASE_URI')
         DOCKERHUB_CREDENTIALS = credentials('DOCKERHUB_CREDENTIALS')
     }
     stages{
