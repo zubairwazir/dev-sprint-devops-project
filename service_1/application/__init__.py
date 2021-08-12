@@ -13,3 +13,5 @@ app.config['SECRET_KEY'] = 'pass'
 db = SQLAlchemy(app)
 
 from application import routes
+
+# Hello
