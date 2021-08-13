@@ -23,9 +23,9 @@
 
 - [Jenkins](#Jenkins)
 
-- [Interactions Diagram](#Interactions Diagram)
+- [Swarm Diagram](#Swarm Diagram)
 
-- [4 Service Diagram](#4 Service Diagram)
+- [Service Diagram](#Service Diagram)
 
 - [Development](#Development)
 
