@@ -160,7 +160,7 @@ There are quite a few implemnetations I would like to make on my project. Howeve
 
 Author: Chasminder Bhavra 
 
-### Acknowledements
+### Acknowledgements
 
 I would like to heavily acknowledge God for helping me through this difficult time. I would also like to acknowledge Oliver Nichols and Ryan Wright for advising me throughout the project. 
 
