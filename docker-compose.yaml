@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+
+    pub-db:
+        container_name: 'pub-db'
+        image: mysql:latest
+        volumes:
+          - type: volume
+            source: pub-volume
+            target: /var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: "pass"
+            MYSQL_DATABASE: "data"    
+
+   
+    service_1: 
+        container_name: 'service_1'
+        image: 134042/service_1
+        build: ./service_1
+        ports: 
+        - target: 5000
+          published: 5000
+          protocol: tcp
+        environment: 
+            DATABASE_URI: 
+
+    service_2:
+        container_name: 'service_2'
+        image: 134042/service_2 
+        build: ./service_2/
+
+    service_3:
+        container_name: 'service_3'
+        image: 134042/service_3
+        build: ./service_3/
+
+    service_4:
+        container_name: 'service_4'
+        image: 134042/service_4 
+        build: ./service_4/
+
+volumes: 
+    pgdata:
+    pub-volume:
