@@ -29,16 +29,22 @@ services:
         container_name: 'service_2'
         image: 134042/service_2 
         build: ./service_2/
+        deploy:
+     replicas: 2
 
     service_3:
         container_name: 'service_3'
         image: 134042/service_3
         build: ./service_3/
+        deploy:
+     replicas: 2
 
     service_4:
         container_name: 'service_4'
         image: 134042/service_4 
         build: ./service_4/
+        deploy:
+     replicas: 2
 
 volumes: 
     pgdata:
