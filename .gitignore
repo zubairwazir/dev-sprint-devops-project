@@ -133,3 +133,4 @@ dmypy.json
 ~/Practical-project/Resources/file.txt
 ~/Practical-project/Images/file.txt
 resources & images/
+.coveragerc
