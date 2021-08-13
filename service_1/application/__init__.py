@@ -14,5 +14,4 @@ db = SQLAlchemy(app)
 
 from application import routes
 
-# Hello 
 
