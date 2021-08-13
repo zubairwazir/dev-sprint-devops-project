@@ -23,7 +23,9 @@ services:
           published: 5000
           protocol: tcp
         environment: 
-            DATABASE_URI: 
+            DATABASE_URI:
+        deploy:
+     replicas: 2
 
     service_2:
         container_name: 'service_2'
