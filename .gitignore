@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Other
+*.db
+~/Practical-project/Resources/file.txt
+~/Practical-project/Images/file.txt
+resources & images/
+.coveragerc
