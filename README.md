@@ -46,7 +46,7 @@
 
 ## Introduction 
 
-The pub is a wonderous place, where one can enjoy a meal and an imbibement or three with friends & family. It is also a British tradition to boot. So I have created a Pub application that will produce a round of drinks and show th price.  
+The pub is a wonderous place, where one can enjoy a meal and an imbibement or three with friends & family. It is also a British tradition to boot. So I have created a Pub application that will produce a round of drinks and show the price.  
 
 ### Objective 
 
@@ -55,7 +55,7 @@ The main objective of this Project is to create an automated application that ta
 
 ### Proposal 
 
-As an avid Pub frequenter, I would enjoy the idea of an app detailing how much my round will be. So, I know that other Pub-goers would enjoy such an app to make interactions seamless. The following is an epic, (a colection of User Stories that make up the cor requiremnets of the app).
+As an avid Pub frequenter, I would enjoy the idea of an app detailing how much my round will be. So, I know that other Pub-goers would enjoy such an app to make interactions seamless. The following is an epic, (a colection of User Stories that make up the core requiremnets of the app).
 
 - As an app user I want to be able to view my round so that I know how much to pay
 - As an app user I want to know what I have in my round so that I know what I am drinking  
@@ -83,7 +83,7 @@ I used trello to track and complete my tasks for this project. The html can be f
 
 ### Entity Diagram 
 
-For this project there is relationship between databases. This results in a fairly simple Entity Diagram. Which can be seen below or [here](https://github.com/CBhavra/Practical-project/blob/main/Resources/EDv1.drawio):
+For this project there is no relationship between databases. This results in a fairly simple Entity Diagram. Which can be seen below or [here](https://github.com/CBhavra/Practical-project/blob/main/Resources/EDv1.drawio):
 
 <img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Entity%20Diagram.jpg"/>
 
@@ -129,7 +129,7 @@ As can be seen above, the service diagram exhibits how the back-end and front-en
 
 ### Front-End 
 
-The front-end of this project is in a very rudimentary stage. But it works well, when going through the NGINX IP the app is accessible for use. At the moment there is no create, updae or delete functionality but these are hopeful additions which I will detail later. 
+The front-end of this project is in a very rudimentary stage. But it works well, when going through the NGINX IP the app is accessible for use. At the moment there is no create, update or delete functionality but these are hopeful additions which I will detail later. 
 
 <img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Front-End.jpg"/>
 
@@ -162,7 +162,7 @@ Author: Chasminder Bhavra
 
 ### Acknowledgements
 
-I would like to heavily acknowledge God for helping me through this difficult time. I would also like to acknowledge Oliver Nichols and Ryan Wright for advising me throughout the project. 
+I would like to heavily acknowledge God for helping me through this challenging project. I would also like to acknowledge Oliver Nichols and Ryan Wright for advising me throughout the project. 
 
 ### Version
 
