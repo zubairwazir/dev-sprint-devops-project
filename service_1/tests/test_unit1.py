@@ -21,7 +21,13 @@ class TestResponse(TestBase):
             response = self.client.get(url_for('home'))
 
         self.assert200(response)
+
         self.assertIn('Your round has one alcholic drink and a soft drink for £4.0', response.data.decode())
+
+        
+
+        
+
 
 
 
