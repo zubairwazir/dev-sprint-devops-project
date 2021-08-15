@@ -4,22 +4,22 @@ app = Flask(__name__)
 
 prices = {
     'alc_drink': {
-        'Lager': 0.00,
-        'Stout': 0.00,
-        'Ale': 0.00,
-        'Red Wine': 0.00,
-        'White Wine': 0.00,
-        'Spirits (Double)': 0.00,
-        'Cocktails': 0.00
+        'Lager': 4.00,
+        'Stout': 3.50,
+        'Ale': 4.50,
+        'Red Wine': 7.50,
+        'White Wine': 6.50,
+        'Spirits (Double)': 6.75,
+        'Cocktails': 7.95
     },
     'soft_drink': {
         'Water': 0.00,
-        'Sparkling Water': 0.00,
-        'Coca-Cola': 0.00,
-        'Fanta': 0.00,
-        'J20': 0.00,
-        'Tea': 0.00,
-        'Coffee': 0.00
+        'Sparkling Water': 1.50,
+        'Coca-Cola': 2.15,
+        'Fanta': 2.00,
+        'J20': 2.50,
+        'Tea': 3.50,
+        'Coffee': 3.00
     }
 }
 
