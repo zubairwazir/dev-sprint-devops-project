@@ -75,7 +75,7 @@ Throughout the project, I encountered multiple risks that could occur and so add
 
 I used Jira to track and complete my tasks for this project.
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/jiraboard.png"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/jiraboard.png"/>
 
 
 ### Entity Diagram 
