@@ -23,15 +23,16 @@ prices = {
     }
 }
 
+
 @app.route('/post/round', methods=['POST'])
 def post_round():
     alc_drink = request.json['alc_drink']
     soft_drink = request.json['soft_drink']
 
     price = prices['alc_drink'][alc_drink] + prices['soft_drink'][soft_drink]
-   
 
-    return jsonify(price) 
+    return jsonify(price)
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

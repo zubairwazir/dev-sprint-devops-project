@@ -39,14 +39,10 @@
 
 - [Author](#Author)
 
-- [Acknowledements](#Acknowledgements)
-
-- [Version](#Version)
-
 
 ## Introduction 
 
-The pub is a wonderous place, where one can enjoy a meal and an imbibement or three with friends & family. It is also a British tradition to boot. So I have created a Pub application that will produce a round of drinks and show the price.  
+~~**`The pub is a wonders place where one can enjoy a meal and an embodiment or three with friends & family.`**~~ It is also a British tradition to boot. So I have created a Pub application that will produce a round of drinks and show the price.  
 
 ### Objective 
 
@@ -55,7 +51,7 @@ The main objective of this Project is to create an automated application that ta
 
 ### Proposal 
 
-As an avid Pub frequenter, I would enjoy the idea of an app detailing how much my round will be. So, I know that other Pub-goers would enjoy such an app to make interactions seamless. The following is an epic, (a colection of User Stories that make up the core requiremnets of the app).
+As an avid Pub frequenter, I would enjoy the idea of an app detailing how much my round will be. So, I know that other Pub-goers would enjoy such an app to make interactions seamless. The following is an epic, (a collection of User Stories that make up the core requirements of the app).
 
 - As an app user I want to be able to view my round so that I know how much to pay
 - As an app user I want to know what I have in my round so that I know what I am drinking  
@@ -67,6 +63,7 @@ As an avid Pub frequenter, I would enjoy the idea of an app detailing how much m
 
 ### Risk Assessment 
 
+The risk assessment below highlights the potential risks that would prevent me from completing the project. I find it extremely important to have a plan when dealing with difficult situations and luckily - none of the risks were something I've been dealing with by the end of the project. I always like to think about the technical risks as well as enviromental ones.
 My risk assessment can be seen below:
 
 <img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Risk%20Assessment.jpg"/>
@@ -76,9 +73,9 @@ Throughout the project, I encountered multiple risks that could occur and so add
 
 ### Project Tracking 
 
-I used trello to track and complete my tasks for this project. The html can be found [here](https://github.com/CBhavra/Practical-project/blob/main/Resources/Pub%20Application%20_%20Trello.html). It can also be seen below: 
+I used Jira to track and complete my tasks for this project.
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Trello%20Board.jpg"/>
+<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/jiraboard.png"/>
 
 
 ### Entity Diagram 
@@ -90,7 +87,7 @@ For this project there is no relationship between databases. This results in a f
 
 ### Testing Analysis 
 
-For this project I have only implemented Unit testing. However, in future projects I would wish to implement Integrational testing and other forms such as performance testing especially for the Pipeline(i.e. to make it faster), non-functional testing to increase stability etc. 
+For this project I have only implemented Unit testing. However, in future projects I would wish to implement Integration testing and other forms such as performance testing especially for the Pipeline(i.e. to make it faster), non-functional testing to increase stability etc. 
 
 
 ## Infrastructure
@@ -148,26 +145,17 @@ The following picture is the unit testing that was conducted in Jenkins.
 
 ### Future Implementations 
 
-There are quite a few implemnetations I would like to make on my project. However, the application was not the focus of this project. The main function of the project was to learn and implment a pipeline using the tools given. Nevertheless, to start with: 
+There are quite a few implementations I would like to make on my project. However, the application was not the focus of this project. The main function of the project was to learn and implment a pipeline using the tools given. Nevertheless, to start with: 
 
 - I would like to have included integration tests
 - I would have added more functionality for create, update and delete 
-- I would have like my app to look better and more professional 
+- I would have liked my app to look better and more professional 
 - I would have liked to have added a date and time of purchase for the items and cost 
 - I would have liked to have had the purchased items visible
 
 ### Author 
 
-Author: Chasminder Bhavra 
-
-### Acknowledgements
-
-I would like to heavily acknowledge God for helping me through this challenging project. I would also like to acknowledge Oliver Nichols and Ryan Wright for advising me throughout the project. 
-
-### Version
-
-13/08/2021 Version 1.0.0 
-
+Author: Benson A
 
 
 
