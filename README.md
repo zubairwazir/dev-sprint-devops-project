@@ -42,7 +42,7 @@
 
 ## Introduction 
 
-~~**`The pub is a wonders place where one can enjoy a meal and an embodiment or three with friends & family.`**~~ It is also a British tradition to boot. So I have created a Pub application that will produce a round of drinks and show the price.  
+The pub is a wonders place where one can enjoy a meal and an embodiment or three with friends & family.`**~~ It is also a British tradition to boot. So I have created a Pub application that will produce a round of drinks and show the price.  
 
 ### Objective 
 
@@ -66,7 +66,7 @@ As an avid Pub frequenter, I would enjoy the idea of an app detailing how much m
 The risk assessment below highlights the potential risks that would prevent me from completing the project. I find it extremely important to have a plan when dealing with difficult situations and luckily - none of the risks were something I've been dealing with by the end of the project. I always like to think about the technical risks as well as enviromental ones.
 My risk assessment can be seen below:
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Risk%20Assessment.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/Risk%20Assessment.jpg"/>
 
 Throughout the project, I encountered multiple risks that could occur and so added them when I thought of them. The excell file can be found [here](https://github.com/CBhavra/Practical-project/blob/main/Resources/Risk%20Assessment.xlsx)
 
@@ -82,7 +82,7 @@ I used Jira to track and complete my tasks for this project.
 
 For this project there is no relationship between databases. This results in a fairly simple Entity Diagram. Which can be seen below or [here](https://github.com/CBhavra/Practical-project/blob/main/Resources/EDv1.drawio):
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Entity%20Diagram.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/Entity%20Diagram.jpg"/>
 
 
 ### Testing Analysis 
@@ -108,17 +108,17 @@ The steps it takes in detail is as follows:
 
 The CI/CD pipeline can be seen below: 
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/CI%20Pipeline.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/CI%20Pipeline.jpg"/>
 
 ### Swarm Diagram 
 
 As can be seen below, there is an interactions diagram. It details how the docker-swarm is used from the load-balancer. The user accesses the the NGINX load-balancer, this then takes the application from the Jenkins VM and sends it on to be deployed on the swarm manager and worker. All ports on the swarm have been closed off so that they cannot be accessed. 
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Swarm%20Diagram.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/Swarm%20Diagram.jpg"/>
 
 ### Service Diagram 
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Service%20Diagram.jpg"/> 
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/Service%20Diagram.jpg"/> 
 
 As can be seen above, the service diagram exhibits how the back-end and front-end of the application works. There are 4 containers created by docker, each one contains the necessary code for this application. Service-1 is a front-end facing container it takes information from service-2 and service-3 and sends it to service-4. Service-4 takes that information manipulates it and send its back to service-1. That is what the end user will view.
 
@@ -128,17 +128,17 @@ As can be seen above, the service diagram exhibits how the back-end and front-en
 
 The front-end of this project is in a very rudimentary stage. But it works well, when going through the NGINX IP the app is accessible for use. At the moment there is no create, update or delete functionality but these are hopeful additions which I will detail later. 
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Front-End.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/Front-End.jpg"/>
 
 ### Unit Testing 
 
 The unit testing in this project was much more successful than in the previous one. Each service had its own tests that needed to be conducted. There are two versions I will show. One is the VSCode version and the other in Jenkins. 
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/VS%20Code%20Test%20Coverage.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/VS%20Code%20Test%20Coverage.jpg"/>
 
 The following picture is the unit testing that was conducted in Jenkins. 
 
-<img src="https://github.com/CBhavra/Practical-project/blob/main/Resources/Jenkins-Testing.jpg"/>
+<img src="https://github.com/zubairwazir/dev-sprint-devops-project/blob/master/Resources/Jenkins-Testing.jpg"/>
 
 
 ## Footer 
